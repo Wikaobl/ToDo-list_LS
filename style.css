@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif, arial;
+}
+
+.note-area {
+  width: 90%;
+  margin: 20px;
+  padding: 20px;
+}
+
+.save-btn {
+  border-style: none;
+  background-color: #90bd7c;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 20px;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin: 0 20px;
+}
+
+.save-btn:hover {
+  background-color: #789f5d;
+}
+
+.note {
+  margin: 10px 0;
+  margin: 0 20px;
+}
+
+.delete-btn {
+  border-style: none;
+  background-color: #ee6343;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 14px;
+  padding: 6px 12px;
+  cursor: pointer;
+  margin: 10px 20px;
+}
+
+.delete-btn:hover {
+  background-color: #ca492c;
+}
